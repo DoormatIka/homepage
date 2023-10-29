@@ -14,9 +14,10 @@
 	})
 
 	const quotes: string[] = [
-		"Have you taken your meds yet?",
+		"Passion are embers of the soul, work is its air.",
 		"I hope you a very nice day.",
-		"Do not drink alcohol!"
+		"Do not drink alcohol!",
+		"Quality > Quantity for artists, the reverse is true for anything else paid."
 	];
 
 	async function highlightImages(in_multiplier: number = 1, out_multiplier: number = 1) {
@@ -60,13 +61,13 @@
 	<div class="flex flex-col justify-center dyn-border text-center p-5 my-5 gap-3 mx-2 w-96">
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<img on:click={() => { highlightImages(in_picture, out_picture) }} in:fade={{ delay: 300 }} class="images alice-filter" src="{base}/images/comfort.jpg" alt="">
+		<img on:click={() => { highlightImages(in_picture, out_picture) }} in:fade={{ delay: 300 }} class="images alice-filter" src="{base}/images/comfort.webp" alt="">
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<img on:click={() => { highlightImages(in_picture, out_picture) }} in:fade={{ delay: 500 }} class="images alice-filter" src="{base}/images/shrineinwinter.jpg" alt="">
+		<img on:click={() => { highlightImages(in_picture, out_picture) }} in:fade={{ delay: 500 }} class="images alice-filter" src="{base}/images/shrineinwinter.webp" alt="">
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<img on:click={() => { highlightImages(in_picture, out_picture) }} in:fade={{ delay: 700 }} class="images alice-filter" src="{base}/images/cherryblossoms.jpg" alt="">
+		<img on:click={() => { highlightImages(in_picture, out_picture) }} in:fade={{ delay: 700 }} class="images alice-filter" src="{base}/images/cherryblossoms.webp" alt="">
 	</div>
 	<div class="flex flex-col justify-center text-center py-5 px-3">
 		<a href="https://github.com/DoormatIka">
